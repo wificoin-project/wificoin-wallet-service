@@ -1,16 +1,16 @@
 {
-  "name": "bitcore-wallet-service",
-  "description": "A service for Mutisig HD Bitcoin Wallets",
+  "name": "wificoin-wallet-service",
+  "description": "A service for Mutisig HD WiFicoin Wallets",
   "author": "BitPay Inc",
   "version": "2.3.0",
   "licence": "MIT",
   "keywords": [
-    "bitcoin",
+    "wificoin",
     "copay",
     "multisig",
     "wallet",
     "bitcore",
-    "BWS"
+    "WWS"
   ],
   "repository": {
     "url": "git@github.com:bitpay/bitcore-wallet-service.git",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "async": "^0.9.2",
-    "wificoin-lib": "git://github.com/KunTengRom/wificoin-lib.git",
+    "wificoin-lib": "git://github.com/wificoin-project/wificoin-lib.git",
     "bitcore-lib-cash": "^0.16.1",
     "body-parser": "^1.11.0",
     "compression": "^1.6.2",

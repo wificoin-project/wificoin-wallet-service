@@ -17,7 +17,7 @@ More about BWS at https://blog.bitpay.com/announcing-the-bitcore-wallet-suite/
 
 # Getting Started
 ```
- git clone https://github.com/KunTengRom/wificoin-wallet-service.git
+ git clone https://github.com/wificoin-project/wificoin-wallet-service.git
  cd wificoin-wallet-service
  npm install
  npm start

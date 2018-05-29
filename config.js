@@ -9,7 +9,7 @@ var config = {
   // Uncomment to set the number or process (will use the nr of availalbe CPUs by default)
   clusterInstances: 4,
 
-  https: true,
+  https: false,
   privateKeyFile: '/opt/wificoin/cert/wfc.kunteng.org.key',
   certificateFile: '/opt/wificoin/cert/wfc.kunteng.org.pem',
   ////// The following is only for certs which are not
@@ -41,7 +41,7 @@ var config = {
     btc: {
         livenet: {
     	    provider: 'insight',
-        	url: 'https://wfc.kunteng.org:3001/',
+        	url: 'http://localhost:3001/',
         	apiPrefix:'insight-api'
         },
     }
