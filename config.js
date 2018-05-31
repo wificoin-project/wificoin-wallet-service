@@ -34,14 +34,14 @@ var config = {
   messageBrokerOpts: {
     //  To use message broker server, uncomment this:
     messageBrokerServer: {
-      url: 'http://localhost:3380',
+      url: 'https://localhost:3380',
     },
   },
   blockchainExplorerOpts: {
     btc: {
         livenet: {
     	    provider: 'insight',
-        	url: 'http://localhost:3001/',
+        	url: 'https://localhost:3001/',
         	apiPrefix:'insight-api'
         },
     }
