@@ -28,7 +28,7 @@ This will launch the BWS service (with default settings) at `http://localhost:32
 
 BWS needs mongoDB. You can configure the connection at `config.js`
 
-BWS supports SSL and Clustering. For a detailed guide on installing BWS with extra features see [Installing BWS](https://github.com/KunTengRom/wificoin-wallet-service/blob/master/installation.md). 
+BWS supports SSL and Clustering. For a detailed guide on installing BWS with extra features see [Installing BWS](https://github.com/wificoin-project/wificoin-wallet-service/blob/master/installation.md). 
 
 BWS uses by default a Request Rate Limitation to CreateWallet endpoint. If you need to modify it, check defaults.js' `Defaults.RateLimit`
 

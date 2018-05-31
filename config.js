@@ -9,9 +9,9 @@ var config = {
   // Uncomment to set the number or process (will use the nr of availalbe CPUs by default)
   clusterInstances: 4,
 
-  https: false,
-  privateKeyFile: '/opt/wificoin/cert/wfc.kunteng.org.key',
-  certificateFile: '/opt/wificoin/cert/wfc.kunteng.org.pem',
+  https: true,
+  privateKeyFile: '/opt/wificoin/cert/wfc.wificoin.club.key',
+  certificateFile: '/opt/wificoin/cert/wfc.wificoin.club.pem',
   ////// The following is only for certs which are not
   ////// trusted by nodejs 'https' by default
   ////// CAs like Verisign do not require this
