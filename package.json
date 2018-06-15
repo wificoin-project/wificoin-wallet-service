@@ -57,7 +57,7 @@
     "istanbul": "*",
     "jsdoc": "^3.5.5",
     "memdown": "^1.0.0",
-    "mocha": "^1.18.2",
+    "mocha": "^1.21.5",
     "proxyquire": "^1.7.2",
     "sinon": "1.10.3",
     "supertest": "*",
