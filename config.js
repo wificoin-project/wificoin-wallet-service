@@ -1,6 +1,6 @@
 var config = {
   basePath: '/bws/api',
-  disableLogs: false,
+  disableLogs: true,
   port: 3232,
 
   // Uncomment to make BWS a forking server
@@ -9,9 +9,9 @@ var config = {
   // Uncomment to set the number or process (will use the nr of availalbe CPUs by default)
   clusterInstances: 4,
 
-  https: true,
-  privateKeyFile: '/opt/wificoin/cert/wfc.wificoin.club.key',
-  certificateFile: '/opt/wificoin/cert/wfc.wificoin.club.pem',
+  https: false,
+  privateKeyFile: '/wfc/wificoin/cert/xyblock.net.key',
+  certificateFile: '/wfc/wificoin/cert/xyblock.net.pem',
   ////// The following is only for certs which are not
   ////// trusted by nodejs 'https' by default
   ////// CAs like Verisign do not require this
@@ -41,7 +41,7 @@ var config = {
     btc: {
         livenet: {
     	    provider: 'insight',
-        	url: 'https://wfc.wificoin.club:3001/',
+        	url: 'http://localhost:3001/',
         	apiPrefix:'insight-api'
         },
     }

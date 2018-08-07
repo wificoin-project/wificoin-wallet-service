@@ -60,7 +60,7 @@ function startInstance(cb) {
       return;
     }
 
-    server.listen(port);
+    server.listen(port, 'localhost');
 
     var instanceInfo = cluster.worker ? ' [Instance:' + cluster.worker.id + ']' : '';
     log.info('BWS running ' + instanceInfo);
