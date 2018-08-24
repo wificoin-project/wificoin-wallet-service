@@ -12,6 +12,7 @@ log.disableColor();
 
 
 
+var host = process.env.BWS_HOST || config.host || 'localhost';
 var port = process.env.BWS_PORT || config.port || 3232;
 
 var cluster = require('cluster');
@@ -60,7 +61,7 @@ function startInstance(cb) {
       return;
     }
 
-    server.listen(port, 'localhost');
+    server.listen(port, host);
 
     var instanceInfo = cluster.worker ? ' [Instance:' + cluster.worker.id + ']' : '';
     log.info('BWS running ' + instanceInfo);
